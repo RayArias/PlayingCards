@@ -1,9 +1,9 @@
 # PlayingCards, version 1.11
 A Java demo turned in as a final project for the RevUp course of Revature. Cuts and shuffles a virtual deck of cards and displays what order they end up in.
 
-Cards are set by (rank, suit) int pairs where rank is between 1 and 13 inclusive (1 is the Ace, 11 is the Jack, 12 is the Queen, 13 is the King, and 2 through 10 are their respective number ranks) and suit is one of 0 for Spades, 1 for Hearts, 2 for Clubs, or 3 for Diamonds. The only exceptions to these rules are the pairs (0, 4) for a blank card, (1, 4) for the Minor Joker, (2, 4) for the Major Joker, and (3, 4) for the Title card. Any other int pairs are invalid, will cause a BadRankException, a BadSuitException, or a BadSuitlessException in the case of a card with suit 4, but rank that is not one of 0, 1, 2, or 3, to be thrown, and if an instance of Card with such an int pair calls its toString() method, it will return "an erroneous card".
+The following is taken from comments in the program code and a description of this program posted on Discord in the RevUp #homework-help group.
 
-Taken from Discord, RevUp, homework-help (to be edited later):
+Cards are set by (rank, suit) int pairs where rank is between 1 and 13 inclusive (1 is the Ace, 11 is the Jack, 12 is the Queen, 13 is the King, and 2 through 10 are their respective number ranks) and suit is one of 0 for Spades, 1 for Hearts, 2 for Clubs, or 3 for Diamonds. The only exceptions to these rules are the pairs (0, 4) for a blank card, (1, 4) for the Minor Joker, (2, 4) for the Major Joker, and (3, 4) for the Title card. Any other int pairs are invalid, will cause a BadRankException, a BadSuitException, or a BadSuitlessException in the case of a card with suit 4, but rank that is not one of 0, 1, 2, or 3, to be thrown, and if an instance of Card with such an int pair calls its toString() method, it will return "an erroneous card".
 
 True, there are a number of choices that I made in design that are pretty specific to my program that it'd be pretty obvious that my program is original and it isn't that easy for anyone to copy my project just from the description without it being brazenly obvious. lol
 
